@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen">
+            <img src="https://i.familiscope.fr/2000x1125/smart/2023/02/16/actu-cinema.jpg"alt="" />
+        </div>
+
+        <div class="seatRow">
+            <div class="box">
+                <div class="number"><i class="fa-solid fa-1"></i></div>
+                <div class="number"><i class="fa-solid fa-2"></i></div>
+                <div class="number"><i class="fa-solid fa-3"></i></div>
+                <div class="number"><i class="fa-solid fa-4"></i></div>
+                <div class="number"><i class="fa-solid fa-5"></i></div>
+                <div class="number"><i class="fa-solid fa-6"></i></div>
+                <div class="number"><i class="fa-solid fa-7"></i></div>
+                <div class="number"><i class="fa-solid fa-8"></i></div>
+            </div>
+        </div>
+
+        <div class="seatRow">
+            <div class="order"><i class="fa-solid fa-e"></i></div>
+            <div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="lover"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        </div>
+
+
+        <div class="seatRow">
+            <div class="order"><i class="fa-solid fa-d"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="lover"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        </div>
+
+
+        <div class="seatRow">
+            <div class="order"><i class="fa-solid fa-c"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="lover"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        </div>
+
+        <div class="seatRow">
+            <div class="order"><i class="fa-solid fa-b"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="lover"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        </div>
+
+
+        <div class="seatRow">
+            <div class="order"><i class="fa-solid fa-a"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="lover"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        </div>
+
+
+    </div>
+
+    <div class="movie-list">
+        <select name="" id="movie">
+            <option disabled>Film Seçiniz</option>
+            <option value="100">Movie 1</option>
+            <option value="200">Movie 2</option>
+            <option value="300">Movie 3</option>
+            <option value="450">Movie Lover</option>
+        </select>
+    </div>
+
+    <ul class="info">
+        <li>
+            <div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
+            <span>Reserve Koltuk</span>
+        </li>
+        <li>
+            <div class="seat selected"><i class="fa-solid fa-chair"></i></div>
+            <span>Seçili Koltuk</span>
+        </li>
+        <li>
+            <div class="seat"><i class="fa-solid fa-chair"></i></div>
+            <span>Boş Koltuk</span>
+        </li>
+
+    </ul>
+
+    <p class="infoText">
+        <span id="count">0</span>
+        Koltuk için hesaplanan ücret
+        <span id="amount">450</span>
+        TL
+    </p>
+
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
