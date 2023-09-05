@@ -5,7 +5,7 @@
 - Seçilen çift koltukları kırmızı renkte olacak diğer seçilen koltuklar ise sarı renkte olacak
 
 # Uygulama Ekran Görüntüsü
-<img src="/gif/sinema (online-video-cutter.com).mp4" alt="">
+<img src="/gif/sinema-_online-video-cutter.com_.gif" alt="">
 
 # Teknolojiler
 - Bu projede aşağıdaki teknolojiler kullanıldı:
